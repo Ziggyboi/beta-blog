@@ -44,6 +44,11 @@ $navbar-default-bg: rgb(0, 211, 105);
     
 }
 
+.article-meta-details {
+    border-top: 3px solid #eaeaea;
+    margin-top: 15px;
+}
+
 .article-actions {
     border-top: 1px solid #eaeaea;
     padding-top: 5px;
@@ -60,7 +65,7 @@ $navbar-default-bg: rgb(0, 211, 105);
 }
 
 .article-body {
-    border-top: 1px solid #eaeaea;
+    border-top: 3px solid #eaeaea;
     padding-top: 15px;
     padding-bottom: 15px;
 }
