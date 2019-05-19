@@ -37,15 +37,6 @@ $navbar-default-bg: rgb(0, 211, 105);
 
 }
 
-.button-offset{
-    offset: 10px;
-    margin-left: 5px;
-}
-.btn-primary {
-    margin-top: 15px;
-    margin-left: 10px;
-}
-
 .btn-xlarge {
     font-size: 1.7em;
     text-shadow: 1px 1px rgb(0, 53, 70);
@@ -79,6 +70,15 @@ $navbar-default-bg: rgb(0, 211, 105);
     padding-bottom: 15px;
 }
 
+.submit-btn{
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.listing {
+    list-style: none;
+    padding-left: 0;
+}
 footer {
     margin-top:35px;
     padding-top: 5px;
@@ -100,4 +100,3 @@ footer ul li{
     float: left;
     margin-left: 15px;
 }
-
