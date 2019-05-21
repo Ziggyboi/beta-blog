@@ -1,7 +1,7 @@
 class UsersController < ApplicationController
     
     def index
-       @users = User.all 
+        @pagy, @users = pagy(User.all, items: 5)
     end
     
     
@@ -37,6 +37,7 @@ class UsersController < ApplicationController
 
     def show
         @user = User.find(params[:id])
+        @pagy, @user_articles = pagy(@user.articles.all, items: 5)
     end
 
 
