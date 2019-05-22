@@ -11,6 +11,7 @@ gem 'rails', '~> 5.2.3'
 gem 'bcrypt', '~> 3.1.7'
 # for listing pagination
 gem 'pagy'
+gem 'rails-controller-testing'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
