@@ -1,0 +1,8 @@
+<h1 align="center"><%= "Category: " + @category.name %></h1> 
+<div align="center">
+    <%= pagy_bootstrap_nav(@pagy).html_safe %>
+</div>
+<%= render 'articles/article', obj: @category_articles %>
+<div align="center">
+    <%= pagy_bootstrap_nav(@pagy).html_safe %>
+</div>

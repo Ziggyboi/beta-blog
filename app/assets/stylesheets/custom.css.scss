@@ -80,6 +80,18 @@ $navbar-default-bg: rgb(0, 211, 105);
     padding-left: 0;
 }
 
+.input_checkbox input {
+    width: auto !important ;
+}
+
+.badge {
+    background-color: rgba(161, 223, 150, 0.986);
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
 footer {
     margin-top:35px;
     padding-top: 5px;
